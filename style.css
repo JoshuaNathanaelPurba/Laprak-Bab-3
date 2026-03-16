@@ -1,0 +1,163 @@
+body{
+    margin:0;
+    font-family:Arial;
+    background:#111;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+}
+
+.container{
+    display:flex;
+    width: 900px;
+    margin: 50px auto;
+    background: white;
+    border-radius: 10px;
+}
+
+.left{
+    width: 50%;
+    background: #24346b;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+.left img{
+    width: 250px;
+    margin-top: 40px;
+}
+
+.right{
+    width: 50%;
+    background: #6fa0e4;
+    padding: 40px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+
+.right.dark{
+    background: #1f2b5b;
+    color: white;
+}
+
+.menu{
+    margin-bottom: 20px;
+}
+
+.menu a{
+    text-decoration: none;
+    padding: 10px 25px;
+    background: #2f3d7a;
+    color: white;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.menu a.active{
+    background: #1a73ff;
+}
+
+input{
+    width: 80%;
+    padding: 12px;
+    margin: 10px;
+    border-radius: 6px;
+    border:none;
+}
+
+.forgot{
+    font-size: 12px;
+    text-align: right;
+    width: 80%;
+    margin: auto;
+}
+
+.btn{
+    width: 80%;
+    padding: 12px;
+    background: #1f2b5b;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.google{
+    margin-top: 15px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+.divider{
+    margin-top: 20px;
+}
+
+.image-box{
+    width: 250px;
+    height: 250px;
+    background: white;
+    border-radius: 50%;
+    margin: 40px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-box img{
+    width: 180px;
+    border-radius: 50%;
+}
+
+.google{
+    margin:20px auto;
+    padding:10px 25px;
+    border:none;
+    border-radius:10px;
+    background:white;
+    cursor:pointer;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.google img{
+    width:30px;
+    height:30px;
+}
+
+.left.light{
+    background: #6fa0e4;
+    color: black;
+}
+
+.btn.register{
+    background-color: #6fa0e4;
+    color: black;
+    cursor: pointer;
+}
+
+
+.right .link a{
+    color:#1f2b5b;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+.right.dark .link a{
+    color:#6fa0e4;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+.right .link a:hover{
+    text-decoration:underline;
+}
+
+.right.dark .link a:hover{
+    text-decoration:underline;
+}
